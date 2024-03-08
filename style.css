@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Poppins',sans-serif;
+}
+section
+{
+	position:relative;
+	width: 100%;
+	min-height:100vh;
+	padding:100px;
+	display:flex;
+	justify-content: space_between;
+	align-items: center;
+	background:#000;
+}
+header{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	padding:20px 65px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+header .LogoNN2{
+	position:relative;
+	margin-left:10px;
+	max-height:80px;
+	max-width:40px;
+}
+header ul{
+	position:relative;
+	display:flex;
+	justify-content: space-between;
+}
+header ul li{
+	list-style:none;
+}
+header ul li a{
+	margin:2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid transparent;
+    border-radius: 8%;
+  display: inline-block;
+  text-align: center;
+  line-height: 15px;
+  transition: 0.6s ease;
+    padding: 8px 14px;
+}
+header ul li a:hover{
+    background-color:transparent;
+    color: #fff;
+    border: 3px solid #00FFFF;
+	box-shadow: 0 0 5px #00FFFF;
+}
+header ul li a.active{
+    background-color:#00FFFF;
+    color: #000;
+}
+.content{
+	position:relative;
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.content .textBox{
+	position:relative;
+	max-width:800px;
+}
+.content .textBox h2{
+	color:#bfbfbf;
+	font-size:4em;
+	line-height:1.4em;
+	font-weight:500;
+}
+.content .textBox h2 span{
+	color:#00FFFF;
+	font-size:1.2em;
+	font-weight:900;
+}
+.content .textBox p{
+	color:#bfbfbf;
+}
+.content .textBox a{
+	display:inline-block;
+	margin-top:20px;
+	padding:8px 20px;
+	background: #28fc81;
+    color:#000;
+    border-radius:40px;
+    font-weight: 500;
+    letter-spacing:1px;
+    text-decoration: none;
+}
+.content .textBox a:hover{
+    background-color:transparent;
+    color: #28fc81;
+    border: 3px solid #28fc81;
+	box-shadow: 0 0 5px #28fc81;
+}
+.content .imgBox{
+	width:600px;
+	display:flex;
+	justify-content: flex-end;
+	padding-right:50px;
+	margin-top: 50px;
+}
+.content .imgBox img{
+	max-width:340px;
+}
+.sci{
+	position:absolute;
+	top:50%;
+	right:20px;
+	transform:translateY(-50%);
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+}
+.sci li{
+	list-style:none;
+}
+.sci li a{
+	display:inline-block;
+	filter:invert(1);
+	margin:8px 0;
+}
